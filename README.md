@@ -9,12 +9,15 @@ Run the following command in terminal to install the required packages.<br><br>
 <br>
 <br>
 <br>
-##Getting Started
+
+## Getting Started
+
 To run code on your computer, following command in terminal<br><br>
 `python app.py`
 <br>
 <br>
 <br>
+
 ##License
 MIT License
 <br>
