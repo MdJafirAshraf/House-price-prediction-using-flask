@@ -8,7 +8,6 @@ Run the following command in terminal to install the required packages.<br><br>
 `pip install -r requirements.txt` 
 <br>
 <br>
-<br>
 
 ## Getting Started
 
@@ -16,11 +15,10 @@ To run code on your computer, following command in terminal<br><br>
 `python app.py`
 <br>
 <br>
-<br>
 
 ## License
 MIT License
 <br>
 <br>
-<br>
+
 ### Thank you
