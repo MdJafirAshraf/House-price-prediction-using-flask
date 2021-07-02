@@ -18,9 +18,9 @@ To run code on your computer, following command in terminal<br><br>
 <br>
 <br>
 
-##License
+## License
 MIT License
 <br>
 <br>
 <br>
-###Thank you
+### Thank you
