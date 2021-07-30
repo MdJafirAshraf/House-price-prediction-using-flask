@@ -17,9 +17,12 @@ To run code on your computer, following command in terminal<br><br>
 <br>
 
 ## Preview
-<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/form.png' width="40%" ></img>
-<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/prediction.png' width="40%" ></img>
-
+<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/form.png'></img>
+<br>
+<br>
+<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/prediction.png'></img>
+<br>
+<br>
 
 ## License
 MIT License
