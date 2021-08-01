@@ -1,7 +1,7 @@
 # House-price-prediction-using-flask
 In this project, I developed the predictive power of a model trained on houses price data. It deploy with flask api and using Linear Regression to predict the price value. Deploy Machine Learning Model Using Flask to take model from python code.
 
-If you want to more clear explonation, see my blog
+If you want to more clear explonation, see my blog [House Price Prediction using Flask for Beginners](https://techyscientists.blogspot.com/2021/07/house-price-prediction-using-flask.html)
 
 ## Installation
 
