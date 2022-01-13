@@ -7,14 +7,19 @@ If you want to more clear explonation, see my blog [House Price Prediction using
 
 To run the web app on your local computer, install the required libraries, These packages are included in requirement.txt. In this project used Python3.8.0 and Flask 2.0.1.
 Run the following command in terminal to install the required packages.<br><br>
-`pip install -r requirement.txt` 
+
+```
+pip install -r requirement.txt
+```
 <br>
 <br>
 
 ## Getting Started
 
 To run code on your computer, following command in terminal<br><br>
-`python app.py`
+```
+python app.py
+```
 <br>
 <br>
 
