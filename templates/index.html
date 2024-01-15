@@ -1,31 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>House Price Prediction</title>
+    <title>PriceWise Estate - House Price Prediction</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href="{{ url_for('static', filename='css/main.css') }}">
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("{{ url_for('static', filename='images/pricewise.jpg') }}") no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(0.5px); /* Apply blur effect to the background */
+        }
+
+        header {
+            background: cornflowerblue;
+            padding: 10px;
+            text-align: center;
+            backdrop-filter: blur(10px); /* Apply blur effect to the header */
+        }
+
+        header h1 {
+            color: white;
+            margin: 0;
+        }
+
+        .register_page {
+            width: 360px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .form {
+            position: relative;
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            max-width: 360px;
+            margin: 0 auto 50px;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .form input {
+            font-family: 'Roboto', sans-serif;
+            outline: none;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+            border-radius: 3px;
+        }
+
+        .submit {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #fff;
+            background: cornflowerblue;
+            border: none;
+            padding: 15px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .submit:hover {
+            background: #050f19;
+        }
+
+        p {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <h1>PriceWise Estate</h1>
+    </header>
+
     <div class="register_page">
         <div class="form">
             <form action="{{url_for('predict')}}" method="POST">
-                Bedrooms: <input type="number" name='bedrooms' placeholder="Enter the no of Bedrooms"><br>
-                Bathrooms: <input type="number" name='bathrooms' placeholder="Enter the no of Bathrooms"><br>
-                Floors: <input type="number" name='floors' placeholder="Enter the no of Floors"><br>
-                Year of Build: <input type="number" name='yr_built' placeholder="Enter year of Build"><br>
-                <input type="submit" value="predict" class="submit">
+                Bedrooms: <input type="number" name='bedrooms' placeholder="Enter the number of Bedrooms"><br>
+                Bathrooms: <input type="number" name='bathrooms' placeholder="Enter the number of Bathrooms"><br>
+                Floors: <input type="number" name='floors' placeholder="Enter the number of Floors"><br>
+                Year of Build: <input type="number" name='yr_built' placeholder="Enter the year of Build"><br>
+                <input type="submit" value="Predict" class="submit">
             </form>
             <p> House Price is: {{data}}</p>
         </div>
-
     </div>
-
-
 </body>
 
 </html>
