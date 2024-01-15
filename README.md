@@ -1,38 +1,31 @@
-# House-price-prediction-using-flask
-In this project, I developed the predictive power of a model trained on house price data. It deploys with flask API and uses Linear Regression to predict the price value. Deploy Machine Learning Model Using Flask to take a model from python code.
+# PriceWise Estate 🏡💰
 
-If you want to more clear explonation, see my blog [House Price Prediction using Flask for Beginners](https://techyscientists.blogspot.com/2021/07/house-price-prediction-using-flask.html)
+Welcome to PriceWise Estate, where predicting house sale prices becomes an art! This project harnesses the power of a well-trained model on housing data, brought to life through an elegant Flask API. Utilizing the magic of Linear Regression, our application empowers users to forecast house sale prices with confidence.
 
-## Installation
+If you're eager for more insights, delve into the details on [House Sale Price Prediction]
 
-To run the web app on your local computer, install the required libraries. These packages are include in the requirement.txt file. This project used Python 3.8.0 and Flask 2.0.1.<br><br> Run the following command in the terminal to install the required packages.<br><br>
+## Installation 🚀
 
-```
-pip install -r requirement.txt
-```
-<br>
-<br>
+To set up the web app on your local machine, buckle up and install the required libraries. The necessary packages are neatly bundled in the `requirements.txt` file. Our project is like a well-chosen ensemble, starring Python 3.8.0 and Flask 2.0.1. Execute the following command in your terminal to summon the required packages:
 
-## Getting Started
 
-To run code on your computer, following command in terminal<br><br>
-```
+pip install -r requirements.txt
+Getting Started 🏁
+Ready to witness the magic firsthand? Fire up the code on your machine using this command:
+
+
+
 python app.py
-```
-<br>
-<br>
+Behold as PriceWise Estate comes to life, paving the way for you to explore and interact with the enchanting house sale price prediction model.
 
-## Preview
-<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/form.png'></img>
-<br>
-<br>
-<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/prediction.png'></img>
-<br>
-<br>
+Feel free to embark on your own adventure, tweaking and enhancing the code to suit your unique vision. Have questions or want to share your insights? Reach out—we're all ears!
+How it Works 🌟
+Here are a couple of snapshots showcasing how PriceWise Estate works:
+![PriceWise Estate Screenshot 01](static/images/pricewise01.png)
+*Caption: Insert a deatils of property in the form.*
 
-## License
-MIT License
-<br>
-<br>
+![PriceWise Estate Screenshot 02](static/images/pricewise02.png)
+*Caption: click on predict button for prediction .*
 
-### Thank you
+
+Thank you for choosing PriceWise Estate! 🌟
