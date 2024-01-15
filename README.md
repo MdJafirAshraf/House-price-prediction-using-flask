@@ -8,13 +8,13 @@ If you're eager for more insights, delve into the details on [House Sale Price P
 
 To set up the web app on your local machine, buckle up and install the required libraries. The necessary packages are neatly bundled in the `requirements.txt` file. Our project is like a well-chosen ensemble, starring Python 3.8.0 and Flask 2.0.1. Execute the following command in your terminal to summon the required packages:
 
-```bash
+
 pip install -r requirements.txt
 Getting Started 🏁
 Ready to witness the magic firsthand? Fire up the code on your machine using this command:
 
-bash
-Copy code
+
+
 python app.py
 Behold as PriceWise Estate comes to life, paving the way for you to explore and interact with the enchanting house sale price prediction model.
 
