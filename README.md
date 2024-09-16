@@ -1,11 +1,11 @@
 # House-price-prediction-using-flask
-In this project, I developed the predictive power of a model trained on house price data. It deploys with flask API and uses Linear Regression to predict the price value. Deploy Machine Learning Model Using Flask to take a model from python code.
+This project demonstrates the predictive capabilities of a model trained on house price data using Linear Regression. The model is deployed using a Flask API, providing an interface to predict house prices based on input features.
 
-If you want to more clear explonation, see my blog [House Price Prediction using Flask for Beginners](https://techyscientists.blogspot.com/2021/07/house-price-prediction-using-flask.html)
+For a detailed explanation, check out my blog post: [House Price Prediction using Flask for Beginners](https://techyscientists.blogspot.com/2021/07/house-price-prediction-using-flask.html)
 
 ## Installation
 
-To run the web app on your local computer, install the required libraries. These packages are include in the requirement.txt file. This project used Python 3.8.0 and Flask 2.0.1.<br><br> Run the following command in the terminal to install the required packages.<br><br>
+You'll need to install the required libraries to run this web app on your local machine. These are listed in the requirements.txt file. The project was developed using Python 3.8.0 and Flask 2.0.1.<br><br> Install the necessary packages by running the following command in your terminal:<br><br>
 
 ```
 pip install -r requirement.txt
@@ -15,7 +15,7 @@ pip install -r requirement.txt
 
 ## Getting Started
 
-To run code on your computer, following command in terminal<br><br>
+After installing the required packages, you can start the application by executing the following command in your terminal:<br><br>
 ```
 python app.py
 ```
